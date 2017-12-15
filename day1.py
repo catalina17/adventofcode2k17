@@ -8,9 +8,8 @@ n = len(seq)
 while i < n:
     digit = -1
 
-    while seq[i % n] == seq[(i+1) % n]:
+    if seq[i % n] == seq[(i+ n/2) % n]:
         digit = int(seq[i % n])
-        i += 1
 
     if digit != -1:
         sum_digits += digit
