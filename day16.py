@@ -48,7 +48,7 @@ while True:
         print(num_iter, num_iter - lists[str(program_list)])
         # Find 1000000000th state
         for key in lists:
-            if lists[key] == 1000000 % 48:
+            if lists[key] == 1000000000 % 48:
                 print(key)
                 break
         break
