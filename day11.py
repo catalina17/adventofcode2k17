@@ -25,5 +25,5 @@ for token in tokens:
 
     max_dist = max(max_dist, abs(n_s) + abs(ne_sw))
 
-print(nw_se, n_s, ne_sw) # (9, -367, -429) => 367 S + 429 SW -
+print(nw_se, n_s, ne_sw) # (9, -367, -429)
 print(max_dist)
